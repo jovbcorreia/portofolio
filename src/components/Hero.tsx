@@ -142,8 +142,8 @@ export default function Hero() {
         >
           {[
             { value: "3+", label: "Years Experience" },
-            { value: "3", label: "Companies" },
-            { value: "4", label: "Languages" },
+            { value: "2", label: "Companies" },
+            { value: "50+", label: "Technologies" },
             { value: "∞", label: "Coffee ☕" },
           ].map((stat) => (
             <div
