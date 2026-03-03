@@ -118,7 +118,7 @@ export default function Contact() {
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Designed & Built by{" "}
-            <span className="text-accent">João Correia</span> · 2024
+            <span className="text-accent">João Vilas-Boas Correia</span> · 2026
           </p>
         </div>
       </div>
