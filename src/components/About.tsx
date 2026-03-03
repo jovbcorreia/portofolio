@@ -32,24 +32,9 @@ export default function About() {
         </div>
 
         <div className="grid md:grid-cols-5 gap-16 items-start">
-          {/* Photo */}
-          <div
-            className={`md:col-span-2 flex justify-center transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}
-          >
-            <div className="relative w-64 h-64 rounded-full overflow-hidden border-2 border-accent/40 glow-green">
-              <Image
-                src={personalInfo.photo}
-                alt={personalInfo.name}
-                fill
-                className="object-cover object-top"
-                sizes="256px"
-              />
-            </div>
-          </div>
-
           {/* Text + terminal card */}
           <div
-            className={`md:col-span-3 space-y-6 transition-all duration-700 delay-400 ${inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}
+            className={`md:col-span-3 space-y-6 transition-all duration-700 delay-200 ${inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}
           >
             {personalInfo.bio.map((paragraph, i) => (
               <p
@@ -134,6 +119,21 @@ export default function About() {
                 </svg>
                 GitHub
               </a>
+            </div>
+          </div>
+
+          {/* Photo — right side */}
+          <div
+            className={`md:col-span-2 flex justify-center transition-all duration-700 delay-400 ${inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}
+          >
+            <div className="relative w-64 h-64 rounded-full overflow-hidden border-2 border-accent/40 glow-green">
+              <Image
+                src={personalInfo.photo}
+                alt={personalInfo.name}
+                fill
+                className="object-cover object-top"
+                sizes="256px"
+              />
             </div>
           </div>
         </div>

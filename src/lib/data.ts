@@ -6,7 +6,7 @@ export const personalInfo = {
   email: "joaopsn3@gmail.com",
   linkedin: "https://www.linkedin.com/in/joaovilas-boascorreia/",
   github: "https://github.com/jovbcorreia",
-  photo: "/profile.jpg",
+  photo: "/profileSuit.png",
   bio: [
     "I spent 12 years studying at a French school, and now I'm embarking on a new journey by leaving my comfort zone and challenging myself with new projects. Passionate about the unknown, self-taught, and the biggest surfer on the Internet ever found.",
     "I've always had a dangerous curiosity for programming and technology since taking my first steps. So, I've decided to ride a new wave, guided by the method achieveNextSkill().",
