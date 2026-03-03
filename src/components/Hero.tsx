@@ -156,7 +156,7 @@ export default function Hero() {
               >
                 {stat.value}
               </div>
-              <div className="text-xs text-muted font-mono">{stat.label}</div>
+              <div className="text-xs text-dim font-mono tracking-wider uppercase">{stat.label}</div>
             </div>
           ))}
         </div>
