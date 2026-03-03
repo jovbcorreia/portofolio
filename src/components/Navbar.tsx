@@ -61,20 +61,20 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="relative group px-3 py-1.5 rounded-md text-sm text-dim hover:text-white transition-all duration-200 hover:scale-110 origin-center"
+              className="relative group px-4 py-2 rounded-md text-sm font-medium text-dim hover:text-white hover:font-bold transition-all duration-150 hover:scale-[1.18] origin-center"
               style={{ fontFamily: "var(--font-body)" }}
             >
               {/* Spotlight background */}
               <span
-                className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-150"
                 style={{
-                  background: "rgba(255,255,255,0.05)",
-                  boxShadow: "0 0 20px rgba(255,255,255,0.04), inset 0 0 0 1px rgba(255,255,255,0.07)",
+                  background: "rgba(255,255,255,0.08)",
+                  boxShadow: "0 0 24px rgba(255,255,255,0.12), 0 0 8px rgba(255,255,255,0.08), inset 0 0 0 1px rgba(255,255,255,0.12)",
                 }}
               />
-              <span className="relative">
+              <span className="relative drop-shadow-[0_0_8px_rgba(255,255,255,0)] group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.6)] transition-all duration-150">
                 <span
-                  className="text-white/20 group-hover:text-white/60 font-mono text-xs mr-1 transition-colors duration-200"
+                  className="text-white/20 group-hover:text-white/70 font-mono text-xs mr-1 transition-colors duration-150"
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
                   0{i + 1}.
