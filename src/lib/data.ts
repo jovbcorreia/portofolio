@@ -4,7 +4,7 @@ export const personalInfo = {
   tagline: "Riding a new wave, guided by achieveNextSkill().",
   location: "Portugal 🇵🇹",
   email: "joaopsn3@gmail.com",
-  linkedin: "https://www.linkedin.com/in/joaovilas-boascorreia/",
+  linkedin: "https://www.linkedin.com/in/jovbcorreia/",
   github: "https://github.com/jovbcorreia",
   photo: "/profileSuitClose.jpg",
   bio: [
