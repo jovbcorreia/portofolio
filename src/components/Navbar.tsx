@@ -36,7 +36,7 @@ export default function Navbar() {
           className="font-mono text-text font-bold text-lg tracking-tight"
           style={{ fontFamily: "var(--font-mono)" }}
         >
-          <span className="text-dim">~/</span>jvb
+          <span className="text-dim">~/</span>jovbcorreia
           <span className="cursor text-accent" />
         </a>
 
