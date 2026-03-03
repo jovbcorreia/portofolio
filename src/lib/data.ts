@@ -1,46 +1,44 @@
 export const personalInfo = {
-  name: "João Correia",
+  name: "João Vilas-Boas",
   role: "Full Stack Developer",
-  tagline: "Building digital experiences that matter.",
+  tagline: "Riding a new wave, guided by achieveNextSkill().",
   location: "Portugal 🇵🇹",
-  email: "jovbcorreia@gmail.com", // update with your real email
-  linkedin: "https://www.linkedin.com/in/jovbcorreia/",
-  github: "https://github.com/jovbcorreia", // update if different
+  email: "joaopsn3@gmail.com",
+  linkedin: "https://www.linkedin.com/in/joaovilas-boascorreia/",
+  github: "https://github.com/jovbcorreia",
+  photo: "/profile.jpg",
   bio: [
-    "I'm a Full Stack Software Developer with a passion for crafting clean, efficient, and scalable web applications.",
-    "From architecting robust backends to building seamless frontends, I thrive at every layer of the stack. I love turning complex problems into elegant solutions.",
-    "Currently open to exciting new projects and opportunities.",
+    "I spent 12 years studying at a French school, and now I'm embarking on a new journey by leaving my comfort zone and challenging myself with new projects. Passionate about the unknown, self-taught, and the biggest surfer on the Internet ever found.",
+    "I've always had a dangerous curiosity for programming and technology since taking my first steps. So, I've decided to ride a new wave, guided by the method achieveNextSkill().",
+    "A coffee lover and fan of philosophical discussions, I look forward to having you join me in delivering simple and clean code.",
   ],
 };
 
 export const skills = {
   frontend: [
+    { name: "JavaScript / ES6", level: 92 },
     { name: "React", level: 90 },
-    { name: "Next.js", level: 88 },
+    { name: "HTML / CSS", level: 95 },
     { name: "TypeScript", level: 85 },
-    { name: "Tailwind CSS", level: 90 },
-    { name: "HTML/CSS", level: 95 },
+    { name: "PHP", level: 72 },
   ],
   backend: [
     { name: "Node.js", level: 88 },
-    { name: "Express.js", level: 85 },
     { name: "REST APIs", level: 90 },
-    { name: "GraphQL", level: 75 },
-    { name: "Python", level: 70 },
+    { name: "Express.js", level: 82 },
+    { name: "Java", level: 75 },
+    { name: "Spring Framework", level: 72 },
   ],
   database: [
-    { name: "PostgreSQL", level: 82 },
-    { name: "MongoDB", level: 80 },
+    { name: "SQL / PostgreSQL", level: 85 },
     { name: "MySQL", level: 78 },
-    { name: "Redis", level: 70 },
-    { name: "Prisma ORM", level: 80 },
+    { name: "Redis", level: 75 },
   ],
   devops: [
-    { name: "Git/GitHub", level: 90 },
-    { name: "Docker", level: 75 },
-    { name: "CI/CD", level: 72 },
-    { name: "Vercel / Netlify", level: 88 },
-    { name: "Linux", level: 75 },
+    { name: "Git", level: 92 },
+    { name: "Docker", level: 78 },
+    { name: "AWS", level: 70 },
+    { name: "CI/CD / Jenkins", level: 72 },
   ],
 };
 
@@ -50,13 +48,13 @@ export const techStack = [
   { name: "TypeScript", icon: "TS", color: "#3178C6" },
   { name: "Node.js", icon: "🟢", color: "#339933" },
   { name: "PostgreSQL", icon: "🐘", color: "#4169E1" },
-  { name: "MongoDB", icon: "🍃", color: "#47A248" },
   { name: "Docker", icon: "🐳", color: "#2496ED" },
-  { name: "Tailwind", icon: "🌊", color: "#06B6D4" },
-  { name: "GraphQL", icon: "◈", color: "#E10098" },
-  { name: "Git", icon: "⎇", color: "#F05032" },
+  { name: "AWS", icon: "☁️", color: "#FF9900" },
+  { name: "PHP", icon: "🐘", color: "#8892BE" },
   { name: "Redis", icon: "🔴", color: "#DC382D" },
-  { name: "Prisma", icon: "△", color: "#5A67D8" },
+  { name: "Jenkins", icon: "⚙️", color: "#D33833" },
+  { name: "Git", icon: "⎇", color: "#F05032" },
+  { name: "Java", icon: "☕", color: "#ED8B00" },
 ];
 
 export const projects = [
@@ -130,27 +128,27 @@ export const projects = [
 
 export const experience = [
   {
-    role: "Full Stack Developer",
-    company: "Tech Company",
-    period: "2022 — Present",
+    role: "Software Developer — French Region",
+    company: "EBSCO Information Services",
+    period: "2023 — Present",
     description:
-      "Designing and developing full stack web applications. Leading frontend architecture decisions, mentoring junior developers, and collaborating with cross-functional teams to deliver high-impact products.",
-    techs: ["React", "Next.js", "Node.js", "PostgreSQL", "Docker"],
+      "Working in the French region, communicating with clients from France, Belgium, and Switzerland. Developing in Node.js and React, focusing on a new FOLIO module for French clients. Responsibilities include software development, creating customized catalogs, and setting up SSO connections for new clients.",
+    techs: ["Node.js", "React.js", "TypeScript", "PHP", "Docker", "AWS", "PostgreSQL", "Redis", "Jenkins", "CI/CD"],
   },
   {
-    role: "Frontend Developer",
-    company: "Digital Agency",
-    period: "2020 — 2022",
+    role: "Programmer",
+    company: "Deloitte Portugal",
+    period: "2022 — 2023",
     description:
-      "Built responsive, accessible web interfaces for clients across various industries. Worked closely with designers to translate Figma mockups into pixel-perfect implementations.",
-    techs: ["React", "TypeScript", "Tailwind CSS", "REST APIs"],
+      "Stepped up to Programmer, acquiring more responsibilities. Started training people and passing on knowledge, increasing service quality. Led a team to solve problems and implement new features, increasing direct client contact and evolving towards Tech Consultancy.",
+    techs: ["JavaScript", "ES6", "REST APIs", "ServiceNow", "HTML", "CSS", "Glide API"],
   },
   {
-    role: "Junior Developer",
-    company: "Startup",
-    period: "2019 — 2020",
+    role: "Junior Programmer",
+    company: "Deloitte Portugal",
+    period: "2022",
     description:
-      "Started as a junior developer contributing to both frontend and backend features. Gained hands-on experience with the full software development lifecycle.",
-    techs: ["JavaScript", "Node.js", "MySQL", "HTML/CSS"],
+      "Started professional experience in the Service Management Department, becoming a Certified System Administrator in ServiceNow. Focused on Back-end JavaScript development, solving problems in instances and carrying out new client implementations.",
+    techs: ["JavaScript", "ServiceNow", "Git", "ITSM", "XML"],
   },
 ];
