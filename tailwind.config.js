@@ -13,14 +13,14 @@ module.exports = {
         mono: ['var(--font-mono)'],
       },
       colors: {
-        bg: '#0a0a0f',
-        surface: '#111118',
-        border: '#1e1e2e',
-        accent: '#6ee7b7',
-        accent2: '#a78bfa',
-        muted: '#4a4a6a',
-        text: '#e2e8f0',
-        dim: '#94a3b8',
+        bg: '#0a0a0a',
+        surface: '#111111',
+        border: '#1e1e1e',
+        accent: '#f5f5f5',
+        accent2: '#555555',
+        muted: '#2a2a2a',
+        text: '#f0f0f0',
+        dim: '#777777',
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',
@@ -34,8 +34,8 @@ module.exports = {
           '50%': { transform: 'translateY(-20px)' },
         },
         glow: {
-          '0%': { textShadow: '0 0 20px rgba(110,231,183,0.3)' },
-          '100%': { textShadow: '0 0 40px rgba(110,231,183,0.8), 0 0 80px rgba(110,231,183,0.3)' },
+          '0%': { textShadow: '0 0 20px rgba(255,255,255,0.2)' },
+          '100%': { textShadow: '0 0 40px rgba(255,255,255,0.6), 0 0 80px rgba(255,255,255,0.2)' },
         },
         scan: {
           '0%': { transform: 'translateY(-100%)' },
