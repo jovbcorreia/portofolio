@@ -11,9 +11,23 @@ const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
+const LOGO_TEXT = "jovbcorreia";
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [displayed, setDisplayed] = useState("");
+
+  // Typewriter on mount
+  useEffect(() => {
+    let i = 0;
+    const interval = setInterval(() => {
+      setDisplayed(LOGO_TEXT.slice(0, i + 1));
+      i++;
+      if (i === LOGO_TEXT.length) clearInterval(interval);
+    }, 80);
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -30,13 +44,14 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
+        {/* Logo with typewriter */}
         <a
           href="#"
           className="font-mono text-text font-bold text-lg tracking-tight"
           style={{ fontFamily: "var(--font-mono)" }}
         >
-          <span className="text-dim">~/</span>jovbcorreia
+          <span className="text-dim">~/</span>
+          {displayed}
           <span className="cursor text-accent" />
         </a>
 
@@ -46,7 +61,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="relative group px-3 py-1.5 rounded-md text-sm text-dim hover:text-text transition-colors duration-200"
+              className="relative group px-3 py-1.5 rounded-md text-sm text-dim hover:text-white transition-all duration-200 hover:scale-110 origin-center"
               style={{ fontFamily: "var(--font-body)" }}
             >
               {/* Spotlight background */}
@@ -59,7 +74,7 @@ export default function Navbar() {
               />
               <span className="relative">
                 <span
-                  className="text-white/20 group-hover:text-white/50 font-mono text-xs mr-1 transition-colors duration-200"
+                  className="text-white/20 group-hover:text-white/60 font-mono text-xs mr-1 transition-colors duration-200"
                   style={{ fontFamily: "var(--font-mono)" }}
                 >
                   0{i + 1}.
@@ -72,7 +87,7 @@ export default function Navbar() {
             href={personalInfo.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-4 text-xs font-mono border border-white/20 text-dim px-4 py-2 rounded hover:border-white/50 hover:text-text hover:bg-white/5 transition-all duration-300"
+            className="ml-4 text-xs font-mono border border-white/20 text-dim px-4 py-2 rounded hover:border-white/50 hover:text-white hover:bg-white/5 hover:scale-105 transition-all duration-200"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             GitHub ↗
@@ -106,7 +121,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="block text-dim hover:text-text transition-colors py-2"
+              className="block text-dim hover:text-white transition-colors py-2"
               onClick={() => setMenuOpen(false)}
             >
               <span className="text-white/20 font-mono text-xs mr-2" style={{ fontFamily: "var(--font-mono)" }}>
