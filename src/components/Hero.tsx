@@ -141,10 +141,10 @@ export default function Hero() {
           className={`mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 transition-all duration-1000 delay-300 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           {[
-            { value: "3+", label: "Years Experience" },
-            { value: "2", label: "Companies" },
+            { value: "5+", label: "Years Experience" },
             { value: "50+", label: "Technologies" },
-            { value: "∞", label: "Coffee ☕" },
+            { value: "4", label: "Languages" },
+            { value: "2", label: "Companies" },
           ].map((stat) => (
             <div
               key={stat.label}
