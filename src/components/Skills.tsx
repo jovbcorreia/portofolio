@@ -5,11 +5,13 @@ import { skills, techStack } from "@/lib/data";
 
 function SkillBar({
   name,
+  icon,
   level,
   delay,
   inView,
 }: {
   name: string;
+  icon: string;
   level: number;
   delay: number;
   inView: boolean;
@@ -17,7 +19,8 @@ function SkillBar({
   return (
     <div className="space-y-1.5">
       <div className="flex justify-between text-sm">
-        <span className="text-text font-medium" style={{ fontFamily: "var(--font-body)" }}>
+        <span className="flex items-center gap-2 text-text font-medium" style={{ fontFamily: "var(--font-body)" }}>
+          <span className="text-base leading-none">{icon}</span>
           {name}
         </span>
         <span className="text-accent font-mono text-xs" style={{ fontFamily: "var(--font-mono)" }}>
@@ -101,6 +104,7 @@ export default function Skills() {
                     <SkillBar
                       key={skill.name}
                       name={skill.name}
+                      icon={skill.icon}
                       level={skill.level}
                       delay={ci * 150 + si * 100}
                       inView={inView}
