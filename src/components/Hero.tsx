@@ -80,7 +80,7 @@ export default function Hero() {
           >
             <span className="text-text">João</span>
             <br />
-            <span className="gradient-text">Correia</span>
+            <span className="gradient-text">Vilas-Boas</span>
           </h1>
 
           {/* Typewriter role */}
@@ -141,9 +141,9 @@ export default function Hero() {
           className={`mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 transition-all duration-1000 delay-300 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           {[
-            { value: "5+", label: "Years Coding" },
-            { value: "30+", label: "Projects Built" },
-            { value: "15+", label: "Technologies" },
+            { value: "3+", label: "Years Experience" },
+            { value: "3", label: "Companies" },
+            { value: "4", label: "Languages" },
             { value: "∞", label: "Coffee ☕" },
           ].map((stat) => (
             <div
