@@ -126,13 +126,13 @@ export default function About() {
           <div
             className={`md:col-span-2 flex justify-center transition-all duration-700 delay-400 ${inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}
           >
-            <div className="relative w-64 h-64 rounded-full overflow-hidden border-2 border-accent/40 glow-green">
+            <div className="relative w-80 h-80 rounded-full overflow-hidden border-2 border-accent/40 glow-green">
               <Image
                 src={personalInfo.photo}
                 alt={personalInfo.name}
                 fill
                 className="object-cover object-top"
-                sizes="256px"
+                sizes="320px"
               />
             </div>
           </div>
