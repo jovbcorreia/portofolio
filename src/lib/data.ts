@@ -16,19 +16,22 @@ export const personalInfo = {
 
 export const skills = {
   frontend: [
-    { name: "HTML / CSS", icon: "🌐", level: 95 },
     { name: "JavaScript / ES6", icon: "JS", level: 92 },
     { name: "React", icon: "⚛️", level: 90 },
     { name: "Next.js", icon: "▲", level: 88 },
     { name: "TypeScript", icon: "TS", level: 85 },
     { name: "Tailwind CSS", icon: "🌊", level: 85 },
+    { name: "Flutter", icon: "🐦", level: 65 },
+    { name: "Swift", icon: "🍎", level: 60 },
+    { name: "HTML / CSS", icon: "🌐", level: 95 },
   ],
   backend: [
     { name: "Node.js", icon: "🟢", level: 88 },
+    { name: "Java", icon: "☕", level: 75 },
+    { name: "JavaScript", icon: "JS", level: 92 },
     { name: "REST APIs", icon: "🔌", level: 90 },
     { name: "Express.js", icon: "⚡", level: 85 },
     { name: "PHP", icon: "🐘", level: 72 },
-    { name: "Java", icon: "☕", level: 75 },
     { name: "Spring Framework", icon: "🍃", level: 72 },
   ],
   database: [
