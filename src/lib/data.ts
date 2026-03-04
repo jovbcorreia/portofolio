@@ -36,6 +36,9 @@ export const skills = {
     { name: "PostgreSQL", icon: "🐘", level: 82 },
     { name: "MySQL", icon: "🐬", level: 78 },
     { name: "Redis", icon: "🔴", level: 75 },
+    { name: "DynamoDB", icon: "⚡", level: 70 },
+    { name: "Aurora", icon: "☀️", level: 68 },
+    { name: "Supabase", icon: "⚡", level: 72 },
   ],
   devops: [
     { name: "Git", icon: "⎇", level: 92 },
