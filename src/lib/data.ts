@@ -8,7 +8,7 @@ export const personalInfo = {
   github: "https://github.com/jovbcorreia",
   photo: "/profileSuitClose.jpg",
   bio: [
-    "I spent 12 years studying at a French school, and now I'm embarking on a new journey by leaving my comfort zone and challenging myself with new projects. Passionate about the unknown, self-taught, and the biggest surfer on the Internet ever found.",
+    "From the romance of the French language to the elegance of Portuguese and English — languages have always been my gateway to new worlds. That same passion naturally extended to programming languages, where Node.js became my favourite dialect. I thrive on challenges, constantly pushing my own limits, self-taught and driven by relentless curiosity. Passionate about the unknown and, proudly, the biggest surfer on the Internet ever found.",
     "I've always had a dangerous curiosity for programming and technology since taking my first steps. So, I've decided to ride a new wave, guided by the method achieveNextSkill().",
     "A coffee lover and fan of philosophical discussions, I look forward to having you join me in delivering simple and clean code.",
   ],
