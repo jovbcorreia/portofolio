@@ -98,7 +98,7 @@ export default function Hero() {
             className="text-dim text-lg max-w-2xl mb-10 leading-relaxed"
             style={{ fontFamily: "var(--font-body)" }}
           >
-            {personalInfo.bio[0]}
+            Constantly pushing my own limits, self-taught and driven by curiosity. Passionate about the unknown and, proudly, the biggest surfer on the Internet ever found.
           </p>
 
           {/* CTAs */}
