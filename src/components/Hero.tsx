@@ -130,10 +130,6 @@ export default function Hero() {
           </div>
 
           {/* Scroll indicator */}
-          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-dim/40">
-            <span className="text-xs font-mono">scroll</span>
-            <div className="w-px h-12 bg-gradient-to-b from-accent/40 to-transparent animate-pulse" />
-          </div>
         </div>
 
         {/* Stats */}
