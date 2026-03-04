@@ -63,6 +63,16 @@ export default function Contact() {
             </svg>
             LinkedIn
           </a>
+          <a
+            href={`mailto:${personalInfo.email}?subject=CV%20Request%20%E2%80%94%20Jo%C3%A3o%20Vilas-Boas%20Correia&body=Hi%20Jo%C3%A3o%2C%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20I%27m%20very%20impressed%20with%20your%20work.%0D%0A%0D%0AWould%20you%20be%20available%20to%20share%20your%20CV%3F%20I%27d%20love%20to%20consider%20you%20for%20a%20potential%20opportunity.%0D%0A%0D%0AThank%20you!`}
+            className="flex items-center gap-2 border border-accent/30 text-accent hover:border-accent hover:bg-accent/10 px-8 py-4 rounded-lg font-mono text-base transition-all duration-300"
+            style={{ fontFamily: "var(--font-mono)" }}
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Request CV ↗
+          </a>
         </div>
 
         {/* Social links row */}
