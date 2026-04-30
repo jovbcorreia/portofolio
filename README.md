@@ -8,23 +8,20 @@ Personal portfolio website — a snapshot of my journey as a Full Stack Develope
 
 ## Screenshots
 
-### Hero
-![Hero](screenshots/hero.png)
-
-### About Me
-![About](screenshots/about.png)
-
-### Skills
-![Skills](screenshots/skills.png)
-
-### Projects
-![Projects](screenshots/projects.png)
-
-### Experience
-![Experience](screenshots/experience.png)
-
-### Contact
-![Contact](screenshots/contact.png)
+<table>
+  <tr>
+    <td><strong>Hero</strong><br/><img src="screenshots/hero.png"/></td>
+    <td><strong>About Me</strong><br/><img src="screenshots/about.png"/></td>
+  </tr>
+  <tr>
+    <td><strong>Skills</strong><br/><img src="screenshots/skills.png"/></td>
+    <td><strong>Projects</strong><br/><img src="screenshots/projects.png"/></td>
+  </tr>
+  <tr>
+    <td><strong>Experience</strong><br/><img src="screenshots/experience.png"/></td>
+    <td><strong>Contact</strong><br/><img src="screenshots/contact.png"/></td>
+  </tr>
+</table>
 
 ---
 
