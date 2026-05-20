@@ -135,4 +135,4 @@ All personal data lives in **`src/lib/data.ts`**:
 
 ## License
 
-MIT © 2026 **João Vilas-Boas Correia** — [joaopsn3@gmail.com](mailto:joaopsn3@gmail.com)
+MIT © 2026 **João Vilas-Boas Correia** — [contact@jovbcorreia.com](mailto:contact@jovbcorreia.com) · [joaopsn3@gmail.com](mailto:joaopsn3@gmail.com)

@@ -3,7 +3,7 @@ export const personalInfo = {
   role: "Full Stack Developer",
   tagline: "Riding a new wave, guided by achieveNextSkill().",
   location: "Portugal 🇵🇹",
-  email: "joaopsn3@gmail.com",
+  email: "contact@jovbcorreia.com",
   linkedin: "https://www.linkedin.com/in/jovbcorreia/",
   github: "https://github.com/jovbcorreia",
   photo: "/profileSuitClose.jpg",
